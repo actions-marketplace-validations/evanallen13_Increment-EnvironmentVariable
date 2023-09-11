@@ -3,4 +3,4 @@ import { getInput, setFailed } from "@actions/core";
 
 const name = getInput("name");
 
-console.log(`Hello World!`);
+console.log(`Hello, ${name}!`);
