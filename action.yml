@@ -1,4 +1,4 @@
-name: "Increment Environment variable"
+name: "Increment Environment Variable"
 author: "evanallen13"
 description: "Action to increment an Environment variable by 1."
 
@@ -7,6 +7,6 @@ inputs:
     description: Name
     required: true
 
-  runs:
-    using: node20
-    main: dist/index.js
+runs:
+  using: node20
+  main: dist/index.js
