@@ -1,6 +1,6 @@
-// const core = require("@actions/core");
+import { getInput, setFailed } from "@actions/core";
 // const github = require("@actions/github");
 
-// const name = core.getInput("name");
+const name = getInput("name");
 
 console.log(`Hello World!`);
